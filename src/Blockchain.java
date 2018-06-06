@@ -14,7 +14,7 @@ public class Blockchain {
     public static Wallet walletB;
     public static Transaction genesisTransaction;
 
-    public static void main(String[] args) {
+    public Blockchain(){
         //add our blocks to the blockchain ArrayList:
         Security.addProvider(new org.bouncycastle.jce.provider.BouncyCastleProvider()); //Setup Bouncey castle as a Security Provider
 
